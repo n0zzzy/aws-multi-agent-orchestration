@@ -15,4 +15,4 @@ An enterprise-grade multi-agent travel booking workflow implemented using **AWS 
 ## Repository Structure
 - `travel-booking-orchestration.json`: Core Step Functions state machine definition.
 - `high-risk-booking.json`: Test payload for high-value/high-risk routing flows.
-- `eventbridge-rules.json`: Event routing configurations.
+- `events-human-review-approved.json`: Admin approval event payload.
