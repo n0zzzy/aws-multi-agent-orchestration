@@ -2,6 +2,9 @@
 
 An enterprise-grade multi-agent travel booking workflow implemented using **AWS Step Functions** and **Serverless Architecture**. This project demonstrates centralized orchestration control for coordinating distributed agent behaviors.
 
+
+<p align="center"><img src="docs/architecture.svg" alt="Architecture diagram" width="100%"/></p>
+
 ## Architecture Overview
 - **Orchestration Layer**: AWS Step Functions (`travel-booking-orchestration`) managing state-driven workflow transitions.
 - **Compute**: AWS Lambda serverless functions executing core business logic.
